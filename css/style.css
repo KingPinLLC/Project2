@@ -8,7 +8,7 @@
 }
 
 * {
-  font-family: 'Permanent Marker', cursive; color: beige;
+  font-family: 'Permanent Marker', cursive; color: #ff6347;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   margin-right: 40px;
   margin-bottom: 10px;
   margin-left: 70px;
-  background-color: #23282d;
+  background-color: #d2b48c;
 }
 
 .left-justify{
