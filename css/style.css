@@ -15,26 +15,25 @@ hr {
   border-color: grey;
 }
 
-footer h3.widget-title {
+footer {
   color: #grey;
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 30px;
   margin-right: 40px;
   margin-bottom: 10px;
-  margin-left: 70px;
+  margin-left: 40px;
   background-color: #000000;
 }
 
-/*
+
 div {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
 }
-*/
 
 .left-justify{
   text-align:left;
