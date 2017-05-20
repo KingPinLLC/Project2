@@ -110,6 +110,7 @@ as-div {
     width: 100%;
 }
 
-footer {
-  text
+#footer-content {
+  background: #d4Af37;
+  width:50px;
 }
