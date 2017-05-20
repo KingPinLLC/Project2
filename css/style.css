@@ -15,10 +15,6 @@ hr {
   border-color: grey;
 }
 
-footer {
-  color: #grey;
-}
-
 body {
   margin-top: 30px;
   margin-right: 40px;
@@ -27,24 +23,31 @@ body {
   background-color: #000000;
 }
 
-
-div {
+as-div {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
 }
 
-.left-justify{
-  text-align:left;
+.row-1 {
+  width: 100%;
+}
+
+.row-2 {
+  width: 100%;
+}
+
+.left-justify {
+  text-align: left;
 }
 
 .center-justify{
-  text-align: center
+  text-align: center;
 }
 
 .right-justify{
-  text-align:right
+  text-align:right;
 }
 
 .container{
@@ -52,9 +55,8 @@ div {
   justify-content: center;
   align-items: baseline;
 }
-}
 
-.row {
+.as-row {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -106,4 +108,8 @@ div {
 
 .col-12 {
     width: 100%;
+}
+
+footer {
+  text
 }
