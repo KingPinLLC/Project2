@@ -8,11 +8,8 @@
 }
 
 * {
-  font-family: 'Permanent Marker', cursive; color: #d4Af37;
-  }
-
-hr {
-  border-color: grey;
+  font-family: 'Permanent Marker', cursive;
+  color: #d4Af37;
 }
 
 body {
@@ -21,6 +18,12 @@ body {
   margin-bottom: 10px;
   margin-left: 40px;
   background-color: #000000;
+}
+
+.container {
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
 }
 
 as-div {
@@ -42,18 +45,12 @@ as-div {
   text-align: left;
 }
 
-.center-justify{
+.center-justify {
   text-align: center;
 }
 
-.right-justify{
-  text-align:right;
-}
-
-.container{
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: baseline;
+.right-justify {
+  text-align: right;
 }
 
 .as-row {
@@ -62,55 +59,59 @@ as-div {
   flex-wrap: wrap;
 }
 
-.col-1{
+.col-1 {
   width: 8.33%;
 }
 
-.col-2{
+.col-2 {
   width: 16.66%;
 }
 
-.col-3{
+.col-3 {
   width: 25%;
 }
 
-.col-4{
+.col-4 {
   width: 33.33%;
 }
 
-.col-5{
+.col-5 {
   width: 41.66%;
 }
 
 .col-6 {
-    width: 50%;
+  width: 50%;
 }
 
 .col-7 {
-    width: 58.33%;
+  width: 58.33%;
 }
 
 .col-8 {
-    width: 66.66%;
+  width: 66.66%;
 }
 
 .col-9 {
-    width: 75%;
+  width: 75%;
 }
 
 .col-10 {
-    width: 83.33%;
+  width: 83.33%;
 }
 
 .col-11 {
-    width: 91.66%;
+  width: 91.66%;
 }
 
 .col-12 {
-    width: 100%;
+  width: 100%;
 }
 
-#footer-content {
-  background: #d4Af37;
-  width:50px;
+hr {
+  border-color: white;
+}
+
+footer {
+  background-color: #d4Af37;
+  width: 50%;
 }
