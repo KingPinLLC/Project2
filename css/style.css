@@ -26,6 +26,10 @@ body {
   align-items: baseline;
 }
 
+img {
+  style=float: right
+}
+
 as-div {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
