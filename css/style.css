@@ -20,6 +20,10 @@ body {
   background-color: #000000;
 }
 
+img {
+  float: center;
+}
+
 .container {
   flex-wrap: nowrap;
   justify-content: center;
