@@ -30,10 +30,6 @@ img {
   align-items: baseline;
 }
 
-img {
-  style=float: right
-}
-
 as-div {
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
@@ -49,16 +45,19 @@ as-div {
   width: 100%;
 }
 
-.left-justify {
+left-justify {
   text-align: left;
+  float: left;
 }
 
-.center-justify {
+center-justify {
   text-align: center;
+  float: center-justify;
 }
 
-.right-justify {
+right-justify {
   text-align: right;
+  float: right;
 }
 
 .as-row {
