@@ -1,5 +1,5 @@
 * {
-  margin: 10;
+  margin: 2;
   padding: 10;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -8,13 +8,17 @@
 }
 
 * {
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   color: #d4Af37;
 }
 
 body {
   margin: 30px 40px 40px 10px;
   background-color: #000000;
+}
+
+jumbotron {
+  color: yellow;
 }
 
 img {
